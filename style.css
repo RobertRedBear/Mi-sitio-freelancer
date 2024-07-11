@@ -2,7 +2,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
-  scroll-snap-type: y mandatory;
+  /*scroll-snap-type: y mandatory;*/
 }
 
 *,
@@ -124,10 +124,10 @@ h3 {
 }
 
 
-.servicios, .navegacion-principal, .formulario{
+/*.servicios, .navegacion-principal, .formulario{
   scroll-snap-align: center;
   scroll-snap-stop: always;
-}
+}*/
 /*servicios*/
 @media (min-width: 768px){
     .servicios{
